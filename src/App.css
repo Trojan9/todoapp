@@ -1,0 +1,38 @@
+body{
+  background-color: #9266ff;
+
+}
+.App{
+  background-color: #4a494d;
+  min-height: 500px;
+  width: 400px;
+  margin: 40px auto;
+}
+#to-do-form input{ /*styling the input area of the to-do-form id,dont worry the app will search for the input areas in the id */
+ background-color: rgb(27, 112, 137);
+ border: 0px;
+ width: 200px;
+ height: 50px;
+ padding: 0 20px;
+ margin: 20px;
+ font-size: 18px;
+ border-radius: 20px;
+ color: #fff;
+}
+#to-do-form input::placeholder{
+ color: rgb(255, 255, 255,0.5);
+}
+#to-do-form input:focus,#to-do-form button:focus{
+  outline: none; /*to remove the outline around the border radius i.e another border outside the curved border*/
+}
+#to-do-form button{/*to style the buttons in the todo form*/
+ height: 50px;
+ width: 80px;
+ border: 0px;
+ border-radius: 10px;
+ cursor: pointer;/*will turn the cursor to a hand when we hover on it*/
+ background-color: rgb(202, 154, 24);
+ font-weight: bolder;
+ color: #fff;
+
+}
